@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.site_wrapper {
+  overflow: hidden;
+}
+nav {
+  width: 100%;
+  padding: 10px 20px;
+}
+header {
+  background: url(../assets/images/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 170px;
+}
+
+.header_content {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_content_btn {
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    #029ddf 0%,
+    #68efaf 25%,
+    #ff01d9 50%,
+    #6702ff 75%,
+    #029ddf 100%
+  );
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 17.385px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.71px; /* 153.637% */
+}
+
+.after_bunner {
+  background: #c71a1a;
+  width: 100%;
+  padding: 38px 0;
+  text-align: center;
+}
+
+.after_bunner p {
+  color: #fff;
+  text-align: center;
+  font-size: 27.656px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px; /* 119.322% */
+  margin-bottom: 10px;
+}
+.after_bunner span {
+  color: #fff;
+  text-align: center;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 153.689% */
+}
+
+.utilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 90px 0;
+}
+.utilities h4 {
+  color: #000;
+  text-align: center;
+  font-size: 30.713px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 46.75px; /* 152.216% */
+  text-transform: uppercase;
+}
+.utilities p {
+  color: #333;
+  text-align: center;
+  font-size: 15.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 152.408% */
+  margin-bottom: 30px;
+}
+
+.product_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 100px;
+}
+
+.product_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.overclocking {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.section_text p:first-child {
+  color: #333;
+  font-size: 39.712px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 82.29px; /* 207.214% */
+}
+
+.section_text p:last-child {
+  color: #333;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 153.689% */
+}
+
+.oscaner {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.oscaner p:first-child span {
+  color: #fe8900;
+
+  font-size: 35.625px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 68.57px; /* 192.477% */
+}
+a {
+  text-decoration: none;
+}
+.oscaner a span {
+  color: #fe8900;
+  font-size: 17.531px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.71px; /* 152.357% */
+}
+.oscaner img {
+  margin-top: 20px;
+}
+
+.onscreen {
+  width: 1920px;
+  height: 780px;
+  padding-bottom: 95px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.onscreen img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.onscreen .section_text {
+  z-index: 111;
+  padding-top: 130px;
+}
+
+.hardware {
+  width: 1920px;
+  padding: 95px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
+  background: url(../assets/images/hardware-bg.jpg);
+  background-position: center;
+}
+
+.custom_fan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 115px 0 95px;
+}
+
+.custom_fan h3 {
+  color: #333;
+  text-align: center;
+  font-size: 46.987px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 73.92px; /* 157.318% */
+  margin-bottom: 10px;
+}
+.custom_fan p {
+  color: #333;
+  text-align: center;
+  font-size: 15.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 152.408% */
+  margin-bottom: 20px;
+}
+.overclocking_oscaner {
+  background: url(../assets/images/overcloa.jpg);
+  background-position: center;
+  padding-top: 185px;
+  background-size: cover;
+}
+.videocapture {
+  width: 1920px;
+  margin: 0 auto;
+  height: 780px;
+  padding: 115px 0 95px;
+  background: url(../assets/images/videocapture.jpg);
+  background-position: center;
+}
+
+.videocapture h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 23.641px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 37.4px; /* 158.202% */
+}
+
+.videocapture p {
+  color: #333;
+  text-align: center;
+
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 153.689% */
+}
+
+.norton_gaming {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+}
+
+.norton_gaming_text h4 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24.57px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 37.4px; /* 152.216% */
+}
+
+.norton_gaming_text p {
+  color: #333;
+  margin-bottom: 19.5px;
+  font-size: 15.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 152.408% */
+}
+
+.agrement {
+  text-align: center;
+  margin-top: 20px;
+}
+.agrement p {
+  color: #777;
+  text-align: center;
+
+  font-size: 11.063px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.14px; /* 154.938% */
+}
+.agrement a {
+  color: #136ed9;
+}
+
+.msi_canter {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 95px 0;
+}
+
+.msi_canter h2 {
+  color: #333;
+  font-size: 40.5px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 63.36px; /* 156.444% */
+  margin-bottom: 20px;
+}
+
+.msi_menu_block {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+}
+
+.msi_menu_item {
+  width: 288px;
+  height: 40px;
+  cursor: pointer;
+}
+.msi_menu_item p {
+  color: #333;
+  font-size: 18.806px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.14px; /* 154.948% */
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+.msi_menu_item_active p {
+  color: #fff;
+  background: linear-gradient(90deg, #029ddf 0%, #68efaf 100%);
+}
+.msi_desc p {
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 23.906px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 117.124% */
+}
+
+.msi_desc span {
+  color: #333;
+  font-size: 15.672px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 154.991% */
+}
+.msi_desc a {
+  color: #f00;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 153.689% */
+  margin-top: 10px;
+}
+
+.crosses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 115px 0 95px;
+}
+.crosses h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 39.938px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 63.36px; /* 158.648% */
+}
+
+.crosses p {
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.29px; /* 153.689% */
+}
+
+.crosses .header_content_btn {
+  padding: 10px 40px 9.28px 40px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    #fe171f 0%,
+    #ff8400 25%,
+    #1dfcfa 50%,
+    #136ed9 75%,
+    #ff1c24 100%
+  );
+  margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 23px;
+  padding: 16px 0 30px;
+  border-top: 1px solid #ececec;
+}
+
+.footer_wrapper {
+  width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+.footer_logo p {
+  margin-left: 10px;
+  color: #666;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.93px; /* 142.143% */
+}
+
+.footer_menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer_menu a {
+  color: #666;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.57px; /* 142.846% */
+}
+
+/* Adaptive */
+.mob_header,
+.norton_mob,
+.header_logo_mob {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .desk_header {
+    display: none;
+  }
+  .mob_header {
+    display: flex;
+  }
+  nav {
+    padding: 0;
+  }
+  .header_logo {
+    
+    display: none;
+  }
+  .header_logo_mob {
+    display: flex;
+  }
+  .header_content {
+    padding-top: 100px;
+  }
+  header {
+    padding-bottom: 140px;
+  }
+  .after_bunner {
+    padding: 7px 25px;
+  }
+  .after_bunner br {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .utilities {
+    padding: 20px;
+  }
+  .product_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .product_card {
+    margin-bottom: 10px;
+    padding: 0 20px;
+  }
+  .product_card img {
+    width: 100%;
+  }
+  .overclocking,
+  .oscaner,
+  .onscreen,
+  .hardware,
+  .norton_gaming,
+  .msi_canter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .overclocking img {
+    width: 100%;
+  }
+  .overclocking_oscaner {
+    padding: 30px 15px;
+    background: transparent;
+  }
+  .section_text p:first-child {
+    color: #333;
+
+    font-size: 28.05px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 58.29px; /* 207.807% */
+  }
+
+  .oscaner p:first-child span {
+    color: #fe8900;
+    font-family: Inter;
+    font-size: 12.098px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 23.31px; /* 192.682% */
+  }
+  .onscreen img {
+    width: 100%;
+  }
+  .onscreen {
+    height: 360px;
+  }
+  .onscreen .section_text {
+    z-index: 111;
+    padding: 0 20px;
+  }
+  .hardware {
+    padding: 0 20px 40px;
+  }
+  .hardware img {
+    width: 225px;
+  }
+  .custom_fan {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .custom_fan h3 {
+    color: #333;
+    text-align: center;
+    font-size: 28.528px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 44.88px; /* 157.318% */
+  }
+  .custom_fan p {
+    color: #333;
+    font-size: 12.644px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.43px; /* 153.673% */
+  }
+  .custom_fan img {
+    width: 300px;
+  }
+  .videocapture {
+    width: 100%;
+    padding-top: 20px;
+    background-position: center;
+  }
+  .videocapture h3 {
+    color: #333;
+    text-align: center;
+
+    font-size: 28.369px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 44.88px; /* 158.202% */
+  }
+  .videocapture p {
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 12.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.43px; /* 152.392% */
+  }
+  .norton_desc {
+    display: none;
+  }
+  .norton_mob {
+    display: flex;
+  }
+  .norton_gaming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .agrement {
+    padding: 0 20px;
+  }
+  .msi_canter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .msi_menu_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+  }
+  .msi_menu_block img {
+    width: 100%;
+  }
+  .msi_desc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .msi_canter {
+    padding-bottom: 30px;
+  }
+  .crosses {
+    padding: 40px 20px 60px;
+  }
+  .crosses img {
+    width: 100%;
+  }
+  .footer_wrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .footer_menu a {
+    color: #666;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.29px; /* 142.882% */
+    margin-bottom: 22px;
+  }
+  .footer_logo img {
+    display: none;
+  }
+  .footer_logo p {
+    margin: 0;
+    color: #666;
+    font-size: 9.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.93px; /* 142.143% */
+    margin-bottom: 25px;
+  }
+  .footer_menu {
+    flex-wrap: wrap;
+  }
+}
