@@ -462,6 +462,22 @@ footer {
   display: none;
 }
 
+@media only screen and (max-width: 1750px) {
+  .desk_header,
+  .videocapture,
+  .hardware,
+  .footer_wrapper, .onscreen {
+    width: 100%;
+  }
+  .footer_wrapper {
+    padding: 0 20px;
+  }
+
+  .product_card img {
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .desk_header {
     display: none;
@@ -473,7 +489,6 @@ footer {
     padding: 0;
   }
   .header_logo {
-    
     display: none;
   }
   .header_logo_mob {
